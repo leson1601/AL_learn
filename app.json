@@ -1,0 +1,31 @@
+{
+  "id": "46ba9fdd-bcad-473b-88be-5ea631220e0e",
+  "name": "AL_Learn",
+  "publisher": "qsl",
+  "version": "1.0.0.0",
+  "brief": "Test Extension to learn about AL",
+  "description": "Extension to perform automated testing",
+  "privacyStatement": "https://my.company.com/privacy",
+  "EULA": "https://my.company.com/eula",
+  "help": "https://my.company.com/help",
+  "url": "https://my.company.com/",
+  "logo": "./res/pinologo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 65400,
+      "to": 65500
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": ["TranslationFile"],
+  "contextSensitiveHelpUrl": "https://mysite.com/documentation/"
+}
